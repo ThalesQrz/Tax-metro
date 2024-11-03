@@ -1,0 +1,11 @@
+def taximetro(distancia, multiplicador=1): #distancia é o primeiro parâmetro da função, multiplicador é o segundo parâmetro
+    largada = 3 #valor pro carro dar largada
+    km_rodado = 2 #valor por km rodado
+    valor = (largada + distancia *
+    km_rodado) * multiplicador
+    return valor
+    #fim do subprograma/função
+
+
+pagamento = taximetro(3.5) # colocando o número 3.5 aqui, eu estou definindo o valor do primeiro parâmetro da função taximetro
+print(pagamento)
